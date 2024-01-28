@@ -11,6 +11,11 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class NavComponent {
   isWindowScrolled: boolean = false;
+  socials = {
+    instagram: 'https://instagram.com/',
+    telegram: 'https://telegram/',
+    whatsapp: 'https://whatsapp/',
+  };
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {

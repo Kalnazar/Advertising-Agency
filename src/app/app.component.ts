@@ -18,4 +18,7 @@ import { NavComponent } from './components/header/nav/nav.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {}
+export class AppComponent {
+  bannerText =
+    'Отмеченное наградами агентство перформанс-маркетинга заработало более 20 миллионов долларов дохода.';
+}
